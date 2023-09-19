@@ -2,12 +2,13 @@
 .header{
     display: flex;
     justify-content: space-between;
-    margin: 2rem;
+    margin: 0 2rem;
     text-align: center;
 }
 .title{
     font-size: 2rem;
     color: darksalmon;
+    margin-top: 2rem;
 }
 .btn--create_user{
     background-color: rgb(85, 90, 136);
@@ -16,6 +17,7 @@
     border: none;
     border-radius: 3px;
     transition: 0.3s ease-in-out;
+    margin-top: 2rem;
 }
 .btn--create_user:hover{
  background-color: rgb(83, 114, 95);
@@ -111,6 +113,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill,340px);
     justify-content: center;
+    margin-top: 2rem;
 }
 .userCard{
     border: 1px solid gray;
