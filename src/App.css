@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     margin: 2rem;
+    text-align: center;
 }
 .title{
     font-size: 2rem;
