@@ -111,7 +111,7 @@
 /**** USERCARD ****/
 .userCard__container{
     display: grid;
-    grid-template-columns: repeat(auto-fill,340px);
+    grid-template-columns: repeat(auto-fit,340px);
     justify-content: center;
     margin-top: 2rem;
 }
