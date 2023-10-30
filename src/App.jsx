@@ -7,7 +7,8 @@ import UserCard from './components/UserCard'
 
 function App() {
   const [infoUpdate, setInfoUpdate] = useState()
-  const baseUrl = 'https://users-crud.academlo.tech'
+  /* const baseUrl = 'https://users-crud.academlo.tech' */
+  const baseUrl = 'https://user-crud-api-dev-ekrc.3.us-1.fl0.io'
   const [users,getUsers,createUser,deleteUser,updateUser] = useFetch(baseUrl)
   const [isOpenForm, setIsOpenForm] = useState('form--close-modal')
 
