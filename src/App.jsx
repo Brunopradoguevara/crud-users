@@ -24,7 +24,7 @@ function App() {
       <header className='header'>
         <h1 className='title'>Users</h1>  
         <div>
-          <button onClick={handleOpen} className="btn--create_user"><i class='bx bx-plus'></i> Create new user</button>
+          <button onClick={handleOpen} className="btn--create_user"><i className='bx bx-plus'></i> Create new user</button>
         </div>
       </header>
       <FormUsers

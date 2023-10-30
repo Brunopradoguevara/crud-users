@@ -10,7 +10,6 @@ const useFetch = (baseUrl) => {
      const url = `${baseUrl}${path}/`
       axios.get(url)
        .then(res => {
-        console.log(res.data)
         setInfoApi(res.data)})
        .catch(err => console.log(err))
     }
@@ -20,7 +19,6 @@ const useFetch = (baseUrl) => {
      const url = `${baseUrl}${path}/`
      axios.post(url,data)
      .then(res => {
-        console.log(res.data)
         setInfoApi([...infoApi,res.data])})
      .catch(err => console.log(err))
     }

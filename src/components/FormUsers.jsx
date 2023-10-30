@@ -40,7 +40,7 @@ const FormUsers = ({createUser,infoUpdate,updateUser,setInfoUpdate,formTitle,isO
     <div className={`formUser ${isOpenForm}`}>
       <div className="form__container">
         <h2 className="form__title">{formTitle}</h2>
-        <button onClick={handleClose} className="form__btn--close"><i class='bx bx-x'></i></button>
+        <button onClick={handleClose} className="form__btn--close"><i className='bx bx-x'></i></button>
         <form onSubmit={handleSubmit(submit)} className="form">
         <div className="form__items">
           <label htmlFor="first_name" className="form__label">First name</label>
